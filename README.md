@@ -237,10 +237,3 @@ This project is developed for educational and academic purposes.
 ⭐ If you find this project useful, consider giving the repository a star!
 
 
-### Then
-
-On GitHub's **Edit README** page:
-
-**Ctrl + A → paste the entire thing → Commit changes.**
-
-And that's it. Your README will look like an actual project README rather than just a basic file. 😭🔥
