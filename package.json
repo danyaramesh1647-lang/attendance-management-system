@@ -1,0 +1,9 @@
+{
+  "name": "cloud-attendance-management-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cloud-Based Attendance Management System using Supabase",
+  "scripts": {
+    "start": "npx serve ."
+  }
+}

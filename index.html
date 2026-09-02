@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>AttendCloud</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="login-page">
+  <main class="login-shell">
+    <section class="hero">
+      <div class="brand"><span class="logo">A</span><b>AttendCloud</b></div>
+      <p class="eyebrow">CLOUD ATTENDANCE MANAGEMENT</p>
+      <h1>Attendance,<br><span>made simple.</span></h1>
+      <p class="muted large">A cloud-powered attendance system built with Supabase PostgreSQL and authentication.</p>
+      <div class="features"><p>✓ Secure authentication</p><p>✓ Cloud PostgreSQL database</p><p>✓ Attendance analytics & history</p></div>
+    </section>
+    <section class="card login-card">
+      <h2>Welcome back</h2><p class="muted">Sign in to continue.</p>
+      <form id="loginForm">
+        <label>Email</label><input id="email" type="email" required placeholder="you@example.com">
+        <label>Password</label><input id="password" type="password" required placeholder="••••••••">
+        <button class="btn primary full" id="loginBtn">Sign in</button>
+      </form>
+      <div id="message" class="message hidden"></div>
+    </section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="js/supabase.js"></script><script src="js/auth.js"></script>
+</body>
+</html>
